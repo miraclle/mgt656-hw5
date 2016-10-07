@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('xiaolu-yang');
+    response.send('bright-dinosaur');
 });
 
 app.listen(process.env.PORT || 4000);
